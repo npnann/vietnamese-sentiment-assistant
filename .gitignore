@@ -128,3 +128,7 @@ dmypy.json
 data/*.db
 data/*.sqlite
 data/*.sqlite3
+
+# Test files
+tests/
+pytest.ini
