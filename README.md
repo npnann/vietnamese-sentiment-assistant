@@ -45,3 +45,5 @@ vietnamese-sentiment-assistant/
 └── data/
     └── sentiments.db        # SQLite database
 ```
+
+WEB: vietnamese-sentiment-assistant.streamlit.app
