@@ -46,4 +46,4 @@ vietnamese-sentiment-assistant/
     └── sentiments.db        # SQLite database
 ```
 
-WEB: vietnamese-sentiment-assistant.streamlit.app
+WEB: (vietnamese-sentiment-assistant.streamlit.app)
