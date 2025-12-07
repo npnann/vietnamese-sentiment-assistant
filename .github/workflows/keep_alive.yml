@@ -1,0 +1,21 @@
+name: Streamlit App Uptime Pinger
+
+on:
+  schedule:
+    - cron: '0 */10 * * *'  # Runs 3 times daily
+  workflow_dispatch:
+
+jobs:
+  ping_site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send HTTP Request
+        env:
+          APP_URL: ${{ secrets.STREAMLIT_APP_URL }}
+        run: |
+          curl -sS -I $APP_URL
+          
+          if [ $? -ne 0 ]; then
+            echo "Ping failed."
+            exit 1
+          fi
