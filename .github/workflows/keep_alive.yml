@@ -13,7 +13,7 @@ jobs:
         env:
           APP_URL: ${{ secrets.STREAMLIT_APP_URL }}
         run: |
-          curl -sS -I $APP_URL
+          curl -sS -I -L $APP_URL
           
           if [ $? -ne 0 ]; then
             echo "Ping failed."
