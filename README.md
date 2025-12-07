@@ -32,7 +32,6 @@ vietnamese-sentiment-assistant/
 ├── app.py                    # Streamlit entrypoint
 ├── requirements.txt          # Python dependencies
 ├── README.md                 # This file
-├── pytest.ini               # Pytest configuration
 ├── .gitignore               # Git ignore patterns
 ├── .streamlit/
 │   └── config.toml          # Streamlit theme configuration
