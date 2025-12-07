@@ -13,6 +13,7 @@ git clone https://github.com/npnann/vietnamese-sentiment-assistant.git
 ```bash
 python -m venv venv
 .\venv\Scripts\Activate.ps1  # On Windows
+./venv/bin/activate          # Linux/Macos
 ```
 
 3. Install dependencies:
